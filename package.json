@@ -1,0 +1,20 @@
+{
+  "name": "NightwatchTutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect-brk .\\node_modules\\.bin\\nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^90.0.0",
+    "dotenv": "^8.2.0",
+    "nightwatch": "^1.6.3",
+    "nightwatch-vrt": "^0.2.10"
+  },
+  "dependencies": {}
+}
